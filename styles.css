@@ -114,12 +114,11 @@ footer {
     text-align: center;
 }
 
-/* Style for small icons */
+/* Style for small icons in the footer */
 .logo {
     display: flex;
-    justify-content: flex-start; /* Aligns the logo to the left */
-    text-align: center; 
-    justify-content: center;
+    align-items: center; /* Align icon and text vertically */
+    justify-content: center; /* Center the content horizontally */
     font-size: 1rem;
     color: #444;
     text-transform: none;
@@ -127,10 +126,28 @@ footer {
 }
 
 .logo img {
-    width: 24px; /* Adjust the width to make the logo smaller */
+    width: 24px; /* Default width for larger screens */
     height: auto; /* Maintains the aspect ratio of the logo */
     object-fit: contain; /* Ensures the image fits within the given dimensions without distortion */
     padding-right: 10px;
+}
+
+/* Responsive styles for tablets and smaller screens */
+@media (max-width: 768px) {
+    .logo img {
+        width: 20px; /* Resize the icon for tablet screens */
+    }
+}
+
+/* Even smaller screens (mobile) */
+@media (max-width: 480px) {
+    .logo img {
+        width: 16px; /* Further reduce the icon size for mobile */
+    }
+
+    .logo a {
+        font-size: 0.9rem; /* Adjust the font size to be smaller on mobile */
+    }
 }
 
 /* Wireframe image styling */
@@ -148,46 +165,3 @@ img {
     margin-bottom: 10px; /* Optional: Add some space between the images */
 }
 
-/* Responsive styles for mobile devices */
-@media (max-width: 768px) {
-    .profile-pic {
-        width: 120px;
-        height: 120px; /* Make profile pic smaller on mobile */
-    }
-
-    section#projects img {
-        max-width: 250px; /* Make wireframe images smaller on smaller screens */
-    }
-
-    .intro-text {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
-    }
-
-    .description-text {
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
-    }
-}
-
-/* Even smaller screens (mobile) */
-@media (max-width: 480px) {
-    .profile-pic {
-        width: 100px;
-        height: 100px; /* Further reduce profile pic size on very small screens */
-    }
-
-    section#projects img {
-        max-width: 200px; /* Further reduce wireframe image size */
-    }
-
-    .intro-text {
-        font-size: 1.3rem; /* Adjust font size for smaller screens */
-    }
-
-    .description-text {
-        font-size: 0.8rem; /* Adjust font size for smaller screens */
-    }
-
-    .logo img {
-        width: 20px; /* Make icons even smaller */
-    }
-}
