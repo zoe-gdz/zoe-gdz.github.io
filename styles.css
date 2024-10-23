@@ -135,7 +135,7 @@ footer {
 /* Responsive styles for tablets and smaller screens */
 @media (max-width: 768px) {
     .logo img {
-        width: 20px; /* Resize the icon for tablet screens */
+        width: 30px; /* Resize the icon for tablet screens */
     }
 }
 
