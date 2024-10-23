@@ -107,6 +107,32 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+/* Style for small icons */
+/* Style for the email icon */
+/* .icon {
+    width: 16px;  
+    height: 16px; 
+    vertical-align: middle; 
+    margin-right: 5px; 
+} */
+
+.logo {
+    display: flex;
+    justify-content: flex-start; /* Aligns the logo to the left */
+    /* margin-left: 160px; */
+    text-align: center; 
+    justify-content: center;
+    font-size: 1rem;
+    color: #444;
+    text-transform:none;
+  }
+  
+  .logo img {
+    width: 31px; /* Adjust the width to make the logo smaller */
+    height: auto; /* Maintains the aspect ratio of the logo */
+    object-fit: contain; /* Ensures the image fits within the given dimensions without distortion */
+    padding-right: 10px;
+  }
 
 /* Wireframe image styling */
 img {
