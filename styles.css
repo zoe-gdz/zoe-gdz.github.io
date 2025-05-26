@@ -7,7 +7,7 @@ body {
     color: #333;
     line-height: 1.6;
     text-align: center; /* Center text content globally */
-  background-image: url('images/background.png');
+  background-image: url('images/portfolio background.png');
   background-size: cover; /* fill the screen */
   background-repeat: no-repeat;
   background-attachment: scroll; /* makes it scroll with the page */
