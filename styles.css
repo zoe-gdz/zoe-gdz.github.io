@@ -161,17 +161,22 @@ footer {
 }
 
 /* Wireframe image styling */
+/* Only style general images in the projects section */
 section#projects img {
-    max-width: 300px; /* Set a smaller max width for the wireframes */
-    margin: 0 auto; /* Ensure the wireframes are centered */
+    max-width: 300px;
+    width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
 }
 
-/* General image styling */
-img {
-    width: 100%; /* Adjust the size to 100% of the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure they are on separate lines */
-    margin-bottom: 10px; /* Optional: Add some space between the images */
+/* Profile picture stays at fixed size */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
 }
 
