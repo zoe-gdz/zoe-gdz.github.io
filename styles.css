@@ -7,11 +7,14 @@ body {
     color: #333;
     line-height: 1.6;
     text-align: center; /* Center text content globally */
-  background-image: url('your-image.jpg'); /* or a gradient, pattern, etc. */
+ 
   background-repeat: no-repeat;            /* or repeat, depending on your design */
-  background-size: cover;                  /* or 'contain' or custom size */
+
   background-attachment: scroll;           /* THIS makes it scroll with the page */
   background-position: center top;         /* Position it nicely */
+  background-image: url('images/background.png');
+  background-size: cover;
+
 
 
 }
