@@ -7,13 +7,13 @@ body {
     color: #333;
     line-height: 1.6;
     text-align: center; /* Center text content globally */
- 
-  background-repeat: no-repeat;            /* or repeat, depending on your design */
-
-  background-attachment: scroll;           /* THIS makes it scroll with the page */
-  background-position: center top;         /* Position it nicely */
   background-image: url('images/background.png');
-  background-size: cover;
+  background-size: cover; /* fill the screen */
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* makes it scroll with the page */
+  background-position: center top;
+  font-family: 'Playfair Display', serif;
+ 
 
 
 
