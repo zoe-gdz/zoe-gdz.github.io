@@ -188,4 +188,17 @@ section#projects img {
     display: block;
     margin: 0 auto;
 }
+.skills-list {
+    column-count: 2;
+    column-gap: 40px;
+    list-style-type: disc;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+}
 
