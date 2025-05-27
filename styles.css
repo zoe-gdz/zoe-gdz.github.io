@@ -165,7 +165,7 @@ footer {
 /* Wireframe image styling */
 /* Only style general images in the projects section */
 section#projects img {
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
     height: auto;
     display: block;
