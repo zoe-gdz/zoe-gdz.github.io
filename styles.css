@@ -79,6 +79,7 @@ section#about p {
 
 /* Projects section styling */
 section#projects h2 {
+    font-family: 'Oswald', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 15px;
     color: #333;
