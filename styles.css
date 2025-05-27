@@ -86,9 +86,9 @@ section#about p {
 /* Projects section styling */
 section#projects h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.8rem;
+    font-size: 4.5rem;
     margin-bottom: 15px;
-    color: #333;
+    color: white;
 }
 
 section#skills h2 {
