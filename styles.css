@@ -181,4 +181,11 @@ section#projects img {
     display: block;
     margin: 20px auto;
 }
+.castle-rock {
+    max-width: 200px; /* or any size you prefer */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
