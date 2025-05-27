@@ -179,7 +179,7 @@ section#projects img {
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin: 20px auto;
+    margin: 5px auto;
 }
 .castle-rock {
     max-width: 200px; /* or any size you prefer */
