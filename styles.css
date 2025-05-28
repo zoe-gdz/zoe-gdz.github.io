@@ -91,6 +91,13 @@ section#projects h2 {
     margin-bottom: 15px;
     color: white;
 }
+    
+section#marketing h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+    color: white;
+}
 
 section#skills h2 {
     font-size: 4.5rem;
