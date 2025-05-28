@@ -91,13 +91,6 @@ section#projects h2 {
     margin-bottom: 15px;
     color: white;
 }
-    
-section#marketing h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 4.5rem;
-    margin-bottom: 15px;
-    color: white;
-}
 
 section#skills h2 {
     font-size: 4.5rem;
@@ -179,13 +172,6 @@ section#projects img {
     display: block;
     margin: 0 auto 10px auto;
 }
-    section#marketing img {
-    max-width: 350px;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px auto;
-}
 
 /* Profile picture stays at fixed size */
 .profile-pic {
@@ -209,7 +195,7 @@ section#projects img {
     list-style-type: disc;
     max-width: 600px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
 }
 
@@ -221,4 +207,5 @@ section#projects img {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
