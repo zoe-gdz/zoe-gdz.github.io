@@ -202,3 +202,9 @@ section#projects img {
     margin-bottom: 8px;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
