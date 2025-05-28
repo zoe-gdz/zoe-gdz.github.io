@@ -172,6 +172,13 @@ section#projects img {
     display: block;
     margin: 0 auto 10px auto;
 }
+    section#marketing img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
 
 /* Profile picture stays at fixed size */
 .profile-pic {
