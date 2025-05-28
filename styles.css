@@ -195,7 +195,7 @@ section#projects img {
     list-style-type: disc;
     max-width: 600px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     padding-left: 20px;
 }
 
@@ -207,5 +207,4 @@ section#projects img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
