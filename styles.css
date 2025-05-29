@@ -37,14 +37,15 @@ h2 {
 
 /* Profile picture styling */
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 20px;
     display: block;
     margin-left: auto; /* Ensure it's centered horizontally */
     margin-right: auto; /* Ensure it's centered horizontally */
+    margin-bottom: 5px;
 }
 
 /* New text styling */
